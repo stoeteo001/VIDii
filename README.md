@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Oscar Stoete
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Mijn startniveau is: blauw
 
 
 
@@ -49,19 +49,18 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik moet de gebouwen in de style van pokemon weergeven die dan kunnen veranderen op style/de versie van de pokemon game
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  ik heb dit/ga dit oplossen door verschillende gebouwen en binnekant van de gebouwen te illustreren op jaartal van de uitgegeven pokemon game
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  denk na over easter eggs
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  de easter eggs die ik ga toepassen bevinden zich binnen de gebouwen en heeft betrekking op de style waar het zich bevindt
 
 
   ### Bevinding 3:
