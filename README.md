@@ -13,10 +13,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Oscar Stoete
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-Mijn startniveau is: blauw
+Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 
 
@@ -49,18 +49,19 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Ik moet de gebouwen in de style van pokemon weergeven die dan kunnen veranderen op style/de versie van de pokemon game
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
-  ik heb dit/ga dit oplossen door verschillende gebouwen en binnekant van de gebouwen te illustreren op jaartal van de uitgegeven pokemon game
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
 
 
   ### Bevinding 2:
-  denk na over easter eggs
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
-  de easter eggs die ik ga toepassen bevinden zich binnen de gebouwen en heeft betrekking op de style waar het zich bevindt
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+
 
 
   ### Bevinding 3:
