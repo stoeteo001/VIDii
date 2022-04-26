@@ -1,75 +1,89 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-html, body {
-  height:100%;
-  margin:0;
-  padding:0;
-  
- 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
 }
 
 body {
-    background-image: url(../images/gengar_map.svg);
+    background-image: url(../images/gengar_map_v2.svg);
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position:center;
-    background-color: #1E1647;
+    background-position: center;
+    background-color: #155BBD;
     display: grid;
-   
+
 }
 
 button:not([disabled]) {
-  cursor:pointer;
+    cursor: pointer;
 }
 
 /* jouw CSS vanaf hier */
 
 h1 {
+    font-size: 2em;
+    font-family: fantasy,sans-serif;
     display: flex;
-    color:white;
-    margin: 1em;
+    color: white;
+    padding: 2em;
+    margin: auto;
     justify-content: center;
 }
 
-p{
+p {
+    display: flex;
     color: white;
+    margin: 5em;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 
 /* DE BUTTONS */
+
 @keyframes First_gen {
-  0% { 
-    transform: translate(var(--hor), var(--ver)) rotate(0deg);
-  } 
-  40% {
-    transform: translate(var(--hor), var(--ver)) scale(1.5);
-  }
-  100% { 
-    transform: translate(var(--hor), var(--ver)) rotate(360deg);
-  }
+    0% {
+        transform: translate(var(--hor), var(--ver)) rotate(0deg);
+    }
+    40% {
+        transform: translate(var(--hor), var(--ver)) scale(1.5);
+    }
+    100% {
+        transform: translate(var(--hor), var(--ver)) rotate(360deg);
+    }
 }
 
-section{
+section {
     background-color: none;
     position: fixed;
     height: 100vh;
     width: 100vw;
     top: 0;
-    left:0;
+    left: 0;
     display: grid;
-    place-items:center;
-    
+    place-items: center;
+
 }
 
 
-section button{   
-    position:absolute;
+section button {
+    position: absolute;
     background-color: transparent;
     border: none;
-    
+
     transform: translate(var(--hor), var(--ver));
 }
 
@@ -81,169 +95,535 @@ section button:hover {
 }
 
 
-/* 1971*/
-section button:nth-of-type(1){
-    --hor:-.5vh;
-    --ver:-15vh;
+/* knoppen die worden ingeladen op de map en de grote*/
+
+/* knop 1*/
+
+section button:nth-of-type(1) {
+    --hor: -2.3vh;
+    --ver: -25.5vh;
 }
 
 section button:nth-of-type(1) img {
-    width:8vh;
+    width: 10.5vh;
 }
 
+/* knop 2*/
 
-
-section button:nth-of-type(2){
-    --hor:10vh;
-    --ver:-8.7vh;
+section button:nth-of-type(2) {
+    --hor: 12vh;
+    --ver: -6.4vh;
 }
 
 section button:nth-of-type(2) img {
-     width:10vh;
+    width: 12vh;
 }
 
-section button:nth-of-type(3){
-    --hor:12vh;
-    --ver:0vh;
+/* knop 3*/
+
+section button:nth-of-type(3) {
+    --hor: 12vh;
+    --ver: 18vh;
 }
 
 section button:nth-of-type(3) img {
-     width:12vh;
+    width: 16vh;
 }
 
+/* knop 4*/
 
-/* DETAIL INFO */
-section button + div {
+section button:nth-of-type(4) {
+    --hor: -15vh;
+    --ver: 6.5vh;
+}
+
+section button:nth-of-type(4) img {
+    width: 16vh;
+}
+
+/* knop 5*/
+
+section button:nth-of-type(5) {
+    --hor: -37.5vh;
+    --ver: 34vh;
+}
+
+section button:nth-of-type(5) img {
+    width: 6vh;
+}
+
+section button:nth-of-type(6) {
+    --hor: 28.5vh;
+    --ver: -25vh;
+}
+
+section button:nth-of-type(6) img {
+    width: 5vh;
+}
+
+section button:nth-of-type(7) {
+    --hor: 21.5vh;
+    --ver: 2vh;
+}
+
+section button:nth-of-type(7) img {
+    width: 8vh;
+}
+
+/* ------------------------------------------ */
+
+/* UITKLAPPEN DETAIL PAGINA'S MET ANiMATIES */
+
+section button + section {
     transform: translate(var(--hor), var(--ver)) scale(0);
-    width:35em;
-    height:35em;
-    position: relative;
+    position: absolute;
     background-color: #272727;
-        z-index:100;
-    transition:.3s;
+    z-index: 100;
+    transition: .3s;
 }
 
-section button:focus + div {
+section button:focus + section {
     transform: translate(var(--hor), var(--ver)) scale(1);
+
 }
 
-section button:nth-of-type(1) + div {
-    --hor:-10vh;
-    --ver:5vh;
+
+
+section button:nth-of-type(1) + section {
+    --hor: 0vh;
+    --ver: 0vh;
+    height: 100vh;
+    width: 100vw;
+
+
 }
 
-section button:nth-of-type(2) + div {
-    --hor:0vh;
-    --ver:-45.8vh;
-    
+section button:nth-of-type(2) + section {
+    --hor: 0vh;
+    --ver: 0vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1D1D1D;
 }
 
-section button:nth-of-type(3) + div {
-    --hor:0vh;
-    --ver:-105.8vh;
+section button:nth-of-type(3) + section {
+    --hor: 0vh;
+    --ver: 0vh;
+
+
 }
 
-section button:nth-of-type(2) + div img:nth-of-type(2){
-   position: absolute;
-    width: 5em;
-    top: 25vh;
+section button:nth-of-type(4) + section {
+    --hor: 0vh;
+    --ver: 0vh;
+
+
+}
+
+section button:nth-of-type(5) + section {
+    --hor: 0vh;
+    --ver: 0vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1D1D1D;
+}
+
+section button:nth-of-type(6) + section {
+    --hor: 0vh;
+    --ver: 0vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1D1D1D;
+}
+
+section button:nth-of-type(7) + section {
+    --hor: 0vh;
+    --ver: 0vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1D1D1D;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*responsiveness van de focused button background */
+
+section button:nth-of-type(1) + section img:nth-of-type(1) {
+    width: 100%;
+    height: 100%;
+
+}
+
+section button:nth-of-type(1) + section img:nth-of-type(2) {
+    position: absolute;
+    width: 5vw;
+    top: 22vh;
     height: auto;
-    left: 50vh;
-    animation: gengar-catch;
-    animation-iteration-count: 2;
+    left: 30vh;
+
+
+}
+
+section button:nth-of-type(1):focus + section img:nth-of-type(2) {
+
+    animation: character-walking 4s;
+    animation-iteration-count: 1;
     animation-duration: 2s;
 }
 
+/* center de focused image in het midden van het scherm */
 
+section button:nth-of-type(1) + section img:nth-of-type(1) {
+    width: auto;
+    height: 100vh;
+    display: block;
 
-
-/*
-section:nth-of-type(2){
-    
-    background-image: url(../images/house_inside.svg);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: grid;
-    background-color: #272727;
-    z-index: 1;
-} 
-*/
-
-/* classes */
-
-
-@keyframes gengar-catch {
-  0 { }
-  20% { transform:scale(1);}
-  30% { }
-  50% { transform: scale(0.5);}
-  60% {transform: translateX(-5em);}
-  100% { transform: scale(0);}
 }
 
 
-/* Poké ball */
+
+section button:nth-of-type(2) + section img:nth-of-type(2) {
+    position: absolute;
+    width: 7em;
+    top: 40vh;
+    height: auto;
+    left: 85vh;
+
+}
+
+/* wanneer de button gefocused is start de animatie met afspelen */
+
+section button:nth-of-type(2):focus + section img:nth-of-type(2) {
+
+    animation: gengar-catch;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+section button:nth-of-type(2):focus + section div:nth-of-type(1) {
+
+    animation: shake 1.25s cubic-bezier(.36, .07, .19, .97) forwards;
+    animation-delay: 3s;
+}
+
+section button:nth-of-type(2):focus + section div div:nth-of-type(1) {
+    animation: blink .5s alternate 7;
+    animation-delay: 3s;
+}
+
+
+/* center de focused image in het midden van het scherm */
+
+section button:nth-of-type(2) + section img:nth-of-type(1) {
+    width: auto;
+    height: 100vh;
+    display: block;
+
+}
+
+
+section button:nth-of-type(3) + section img:nth-of-type(2) {
+    position: absolute;
+    width: 25vw;
+    top: 25vh;
+    height: auto;
+    left: 100vh;
+
+}
+
+/*responsiveness van de focused button background */
+
+section button:nth-of-type(3):focus + section img:nth-of-type(2) {
+
+    animation: gengar-slide 2s,
+    pokemon-hit 2s 4s;
+    animation-iteration-count: 1;
+
+
+}
+
+
+
+section button:nth-of-type(3) + section img:nth-of-type(3) {
+    position: absolute;
+    width: 25vw;
+    top: 62vh;
+    height: auto;
+    left: 30vh;
+
+}
+
+section button:nth-of-type(3):focus + section img:nth-of-type(3) {
+
+    animation: gengar-slide 4s .3s,
+    gengar-shoot 1s 3s;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+
+}
+
+
+
+section button:nth-of-type(3) + section div:nth-of-type(1) {
+    position: absolute;
+    background: radial-gradient(farthest-corner at 60px 45px, #3B3075 0%, black 80%);
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    top: 70vh;
+    left: 50vh;
+    opacity: 0;
+
+
+}
+
+section button:nth-of-type(3):focus + section div:nth-of-type(1) {
+
+    animation: gengar-shadowball;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+/*responsiveness van de focused button background */
+
+section button:nth-of-type(3) + section img:nth-of-type(1) {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+section button:nth-of-type(4) + section img:nth-of-type(1) {
+    width: auto;
+    height: 100vh;
+    display: block;
+
+}
+
+section button:nth-of-type(5) + section img:nth-of-type(1) {
+    width: auto;
+    height: 20em;
+    display: block;
+
+}
+
+section button:nth-of-type(6) + section img:nth-of-type(1) {
+    width: auto;
+    height: 20em;
+    display: block;
+
+}
+
+
+
+
+/* Poké ball bron: "https://codepen.io/raubaca/pen/obaZmG" */
+
 .pokeball {
-  position: absolute;
-  top: 10vh;
-    left:10vh;
-  width: 200px;
-  height: 200px;
-  transform: scale(.2);
-  background: #fff;
-  border: 10px solid #000;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: inset -10px 10px 0 10px #ccc;
-  animation: fall .5s ease-in-out,
-             shake 1.25s cubic-bezier(.36,.07,.19,.97) 3;
+    position: absolute;
+    top: 40vh;
+    left: 75vh;
+    width: 200px;
+    height: 200px;
+    transform: scale(.2);
+    background: #fff;
+    border: 10px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: inset -10px 10px 0 10px #ccc;
+    opacity: 0;
+    transform: translate(0, -15em) scale(.2);
+
+
 }
+
 .pokeball::before,
 .pokeball::after {
-  content:"";
-  position: absolute;
+    content: "";
+    position: absolute;
 }
+
 .pokeball::before {
-  background: red;
-  width: 100%;
-  height: 50%;
+    background: red;
+    width: 100%;
+    height: 50%;
 }
+
 .pokeball::after {
-  top: calc(50% - 10px);
-  width: 100%;
-  height: 20px;
-  background: #000;
+    top: calc(50% - 10px);
+    width: 100%;
+    height: 20px;
+    background: #000;
 }
+
 .pokeball__button {
-  position: absolute;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  width: 60px;
-  height: 60px;
-  background: #7f8c8d;
-  border: 10px solid #fff;
-  border-radius: 50%;
-  z-index: 10;
-  box-shadow: 0 0 0 10px black;
-  animation: blink .5s alternate 7;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 60px;
+    background: #7f8c8d;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 0 0 10px black;
+
 }
+
 /* Animation pokeball */
+
 @keyframes blink {
-  from { background: #eee;}
-  to { background: #e74c3c; }
+    from {
+        background: #eee;
+    }
+    to {
+        background: #e74c3c;
+    }
 }
+
 @keyframes shake {
-  0 { transform: translate(0, 0) rotate(0) scale(.2);}
-  20% { transform: translate(-10px, 0) rotate(-20deg) scale(.2);}
-  30% { transform: translate(10px, 0) rotate(20deg) scale(.2);}
-  50% { transform: translate(-10px, 0) rotate(-10deg) scale(.2);}
-  60% { transform: translate(10px, 0) rotate(10deg) scale(.2); }
-  100% { transform: translate(0, 0) rotate(0) scale(.2); }
+    0 {
+        transform: translate(0, -15em) rotate(0) scale(.2);
+
+    }
+    20% {
+        transform: translate(-10px, 0) rotate(-20deg) scale(.2);
+        opacity: 1;
+    }
+    30% {
+        transform: translate(10px, 0) rotate(20deg) scale(.2);
+    }
+    50% {
+        transform: translate(-10px, 0) rotate(-10deg) scale(.2);
+    }
+    60% {
+        transform: translate(10px, 0) rotate(10deg) scale(.2);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0) scale(.2);
+        opacity: 1;
+    }
 }
-@keyframes fall {
-  0% { top: -200px }
-  60% { top: 0 }
-  80% { top: -20px }
-  100% { top: 0 }
+
+/* animations */
+
+@keyframes gengar-catch {
+    0 {
+        transform: scale(1);
+    }
+    20% {}
+    30% {}
+    50% {
+        transform: scale(0.5) translateX(-5em);
+    }
+    60% {}
+    100% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+}
+
+@keyframes gengar-shadowball {
+
+    0 {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {}
+    100% {
+        transform: translate(100em, -40em);
+
+
+    }
+
+}
+
+@keyframes pokemon-hit {
+    0% {
+        transform: translateY(0) scale(1, 1);
+    }
+
+    10% {
+
+        transform: translateY(0) scale(1.1, .9);
+    }
+
+    30% {
+        transform: translateY(-5em) scale(.9, 1.1);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    100% {}
+}
+
+@keyframes gengar-shoot {
+    0% {
+        transform: translateY(0);
+    }
+
+    10% {
+
+        transform: translateY(0) scale(1, 1);
+    }
+
+    30% {
+        transform: translateY(1em) scale(.9, 1.1);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    100% {}
+}
+
+@keyframes gengar-slide {
+    0 {
+        transform: translateX(-5em) scale(.5);
+    }
+    20% {}
+    30% {}
+    50% {
+        ;
+    }
+    60% {
+        transform: translateX(5em);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes character-walking {
+    0 {
+        transform: translateX(-5em) scale(.5);
+    }
+    20% {}
+    30% {}
+    50% {
+        transform: rotateZ(180deg);
+
+    }
+    60% {
+        transform: translateX(5em);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
