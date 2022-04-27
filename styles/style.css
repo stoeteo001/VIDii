@@ -35,7 +35,7 @@ button:not([disabled]) {
 
 
 h1 {
-    font-size: 2em;
+    font-size: 2.3em;
     font-family: fantasy, sans-serif;
     display: flex;
     color: white;
@@ -47,7 +47,8 @@ h1 {
 p {
     display: flex;
     color: white;
-    margin: 5em;
+    margin: 0 13em 0 13em ;
+    font-size: 1.3em;
     align-items: center;
     justify-content: center;
 
@@ -192,6 +193,7 @@ section button:focus + section {
 /* UITKLAPPEN DETAIL PAGINA'S MET ANiMATIES EN GEBRUIK VARIABEL OM SECTION TE PLAATSEN */
 
 section button:nth-of-type(1) + section {
+    
     --hor: 0vh;
     --ver: 0vh;
     height: 100vh;
@@ -199,6 +201,7 @@ section button:nth-of-type(1) + section {
 }
 
 section button:nth-of-type(2) + section {
+    
     --hor: 0vh;
     --ver: 0vh;
     height: 100vh;
@@ -207,16 +210,19 @@ section button:nth-of-type(2) + section {
 }
 
 section button:nth-of-type(3) + section {
+    
     --hor: 0vh;
     --ver: 0vh;
 }
 
 section button:nth-of-type(4) + section {
+    
     --hor: 0vh;
     --ver: 0vh;
 }
 
 section button:nth-of-type(5) + section {
+    
     --hor: 0vh;
     --ver: 0vh;
     height: 100vh;
@@ -225,6 +231,7 @@ section button:nth-of-type(5) + section {
 }
 
 section button:nth-of-type(6) + section {
+    
     --hor: 0vh;
     --ver: 0vh;
     height: 100vh;
@@ -233,6 +240,7 @@ section button:nth-of-type(6) + section {
 }
 
 section button:nth-of-type(7) + section {
+    
     --hor: 0vh;
     --ver: 0vh;
     height: 100vh;
@@ -241,6 +249,7 @@ section button:nth-of-type(7) + section {
 }
 
 section button:nth-of-type(8) + section {
+    
     --hor: 0vh;
     --ver: 0vh;
     height: 100vh;
@@ -254,6 +263,7 @@ section button:nth-of-type(8) + section {
 /*responsiveness van de focused button background */
 
 section button:nth-of-type(1) + section img:nth-of-type(1) {
+    
     width: auto;
     height: 100vh;
     display: block;
@@ -261,13 +271,12 @@ section button:nth-of-type(1) + section img:nth-of-type(1) {
 }
 
 section button:nth-of-type(1) + section img:nth-of-type(2) {
+    
     position: absolute;
     width: 5vw;
     top: 32vh;
     height: auto;
     left: 100vh;
-
-
 }
 
 section button:nth-of-type(1) + section img:nth-of-type(3) {
@@ -276,8 +285,6 @@ section button:nth-of-type(1) + section img:nth-of-type(3) {
     top: 42vh;
     height: auto;
     left: 120vh;
-
-
 }
 
 section button:nth-of-type(1) + section h1:nth-of-type(1) {
@@ -288,8 +295,6 @@ section button:nth-of-type(1) + section h1:nth-of-type(1) {
     height: auto;
     color: var(--achtergrond);
     left: 120vh;
-
-
 }
 
 /*ANIMATIE VAN SPEELT AF ALS DE KNOP FOCUSED */
@@ -339,12 +344,10 @@ section button:nth-of-type(2) + section h1:nth-of-type(1) {
 
     position: absolute;
     width: 6vw;
-    top: 79vh;
+    top: 77vh;
     height: auto;
     color: white;
     left: 120vh;
-
-
 }
 
 /* wanneer de button gefocused is start de animatie met afspelen */
@@ -400,16 +403,6 @@ section button:nth-of-type(3) + section img:nth-of-type(1) {
 
 }
 
-section button:nth-of-type(3) + section h1:nth-of-type(1) {
-    
-    position: absolute;
-    width: 6vw;
-    top: 79vh;
-    height: auto;
-    color: white;
-    left: 120vh;
-}
-
 /*Shadowball animatie aanroepen*/
 
 section button:nth-of-type(3) + section div:nth-of-type(1) {
@@ -423,6 +416,17 @@ section button:nth-of-type(3) + section div:nth-of-type(1) {
     left: 50vh;
     opacity: 0;
 }
+
+section button:nth-of-type(3) + section h1:nth-of-type(1) {
+    
+    position: absolute;
+    width: 6vw;
+    top: 77vh;
+    height: auto;
+    color: white;
+    left: 120vh;
+}
+
 
 /*ANIMATIE VAN SPEELT AF ALS DE KNOP FOCUSED */
 
