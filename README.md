@@ -32,7 +32,9 @@ Mijn startniveau is: Blauw
   
    ### De tweede versie/schets:
   <img src="readme-images/tweede_schets.svg" width="375px" alt="eerste versie/schets">
-
+  
+   ### De derde versie/schets:
+  <img src="readme-images/derde_schets.jpeg" width="375px" alt="eerste versie/schets">
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
