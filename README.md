@@ -13,10 +13,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Oscar Stoete
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-Mijn startniveau is: Blauw
+Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 
 
@@ -28,7 +28,7 @@ Mijn startniveau is: Blauw
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/gengar_map.svg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
