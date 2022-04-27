@@ -193,7 +193,10 @@ Mijn startniveau is: Blauw
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik ben over het algemeen niet goed in het schrijven van code, daarom was dit best wel een lastige opdracht voor mij. Ik heb daarentegen wel een aantal dingen geleerd. Ik heb beter geleerd om gebruik te maken van parents en brothers in de code, die heb ik kunnen gebruiken om zo beter me plaatjes en knoppen aan te kunnen roepen in me code. Daarnaast heb ik ook een aantal dingen geleerd over het schrijven van animaties en ze goed toe te kunnen passen op deze verschillende parents/brothers. 
+  Ik ben over het algemeen niet goed in het schrijven van code, daarom was dit best wel een lastige opdracht voor mij. Ik heb daarentegen wel een aantal dingen geleerd. Ik heb beter geleerd om gebruik te maken van parents en brothers in de code, die heb ik kunnen aanroepen in mijn css om zo beter me plaatjes en knoppen aan te kunnen roepen in me code. Daarnaast heb ik ook een aantal dingen geleerd over het schrijven van animaties en ze goed toe te kunnen passen op deze verschillende parents/brothers. 
+ 
+ Het lastigste nog om een soort landkaart te maken van mijn ontwerp, aangezien ik het maaste vaak mijn content met een grid of flexbox maak. Dit heb ik voor elkaar gekregen naar veel vragen en opzoeken door variabelen te gebruiken en die aan de knoppen mee te geven zodat ik ze de juiste plekken kan meegeven. Dat is zo gedaan omdat ze dan responsive mee kunnen schalen en niet breken op een andere resolutie.
+  
 
   <img src="readme-images/battle_animations.png" width="375px" alt="top">
 
