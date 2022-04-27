@@ -120,6 +120,18 @@ Mijn startniveau is: Blauw
 
   #### oplossing:
   code herindelen zodat het makkelijk terug te vinden is.
+  
+   ### Bevinding 4:
+  Probleem met pokebal code.
+
+  #### oplossing:
+  De pokebal zit in 2 div's het was dus uitvogelen hoe ik hem kon laten zien zonder dat de code stuk ging die ik gebruikt had van de bron. Dit heb ik gedaan door de     code individueel aan te roepen als knop en zo vanuit de class die die al had een position te geven.
+  
+   ### Bevinding 5:
+  Animaties spelen op de achtergrond af en als je op de knop klikt zijn de animaties al afgespeeld.
+
+  #### oplossing:
+  Dit heb ik gedaan door de animatie aan te roepen in de focus van de knop.
 
 </details>
 
@@ -142,7 +154,7 @@ Mijn startniveau is: Blauw
   Probeer gebruik te maken van custom properties waar dat kan.
 
   #### oplossing:
-  Ik heb custom properties gebruikt voor de achtergrond kleur en voor de horizontale en verticale as van de knoppen
+  Ik heb custom properties gebruikt voor de achtergrond kleur en voor de horizontale en verticale as van de knoppen.
 
 
 
@@ -157,6 +169,14 @@ Mijn startniveau is: Blauw
 
   #### oplossing:
   gedaan door de sections waar de animaties inzitten een 100% height te geven width auto en dan de images die in die sections zitten een viewheight te geven zodat ze     meeschalen met het scherm.
+  
+   ### Bevinding 5:
+  Animaties spelen niet achter elkaar .
+
+  #### oplossing:
+  Dit heb ik aan de docent gevraagd en aan de praat gekregen door de animatie een delay te geven in de animation-name en zo de andere animatie in de code een delay te   geven met de duur van de andere animatie zodat hij er gelijk achter aan kan spelen.
+  
+  
 
 </details>
 
