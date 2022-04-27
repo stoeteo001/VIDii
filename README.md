@@ -28,7 +28,10 @@ Mijn startniveau is: Blauw
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/gengar_map.svg" width="375px" alt="eerste versie/schets">
+  
+   ### De tweede versie/schets:
+  <img src="readme-images/tweede_schets.svg" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
@@ -49,24 +52,40 @@ Mijn startniveau is: Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De stijl van de map is nog niet helemaal in de stijl van het pokémon genre.
+  <img src="readme-images/gengar_map.svg" width="375px" alt="eerste versie/schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb de huizen van die op de kaart weergegeven wordt de stijl van de pokemon games gegeven die chronologisch in stijl veranderen op basis van het jaarrtal dat ze     zijn ontworpen.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Er bevinden nog geen Easter Eggs in het design.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik moet gaan nadenken hoe ik easter eggs ga toepassen in het design, dit heb ik bewaardt voor later.
 
 
 
   ### Bevinding 3:
-  ...
-
+  De stijl van de map is nog niet helemaal in de stijl van het pokémon genre.
+  
+    #### oplossing:
+  De stijl van de kaart zelf is ook nog niet helemaal in de stijl van Pokémon omdat ik de kleuren van gengagr heb gebruikt. Ik heb dit ook bewaardt voor later om te     bedenken hoe ik de kaart beter in de stijl van pokemon kan bewerken.
+  
+      ### Bevinding 4:
+  hoe ga ik een manier vinden om zoveel mogelijk te laten zien van progressive disclosure zonder te veel informatie te laten zien.
+  
+    #### oplossing:
+   gebouwen veranderen van design stijl door de jaren heen op deze gebouwen kun je klikken en die laten de stijl van dat jaartal zien wanneer de game ontworpen is.
+  
+    ### Bevinding 5:
+  Bedenken hoe ik de kaart responsive ga maken. op het moment is de kaart niet responsive.
+  
+    #### oplossing:
+   -
+  
 </details>
 
 
