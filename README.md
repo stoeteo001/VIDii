@@ -42,6 +42,7 @@ Mijn startniveau is: Blauw
   - Werken aan mijn css om Deze vaardigheden te verbeteren
   - Ik wil een kleinschalige pokemonbattle weergeven
   - Ik wil kunnen illustreren
+  - animaties kunnen afspelen nadat je iets op de map hebt geklikt
  
 </details>
 
@@ -205,9 +206,9 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 2. https://codepen.io/shooft/pen/zYpezwG (gameboy voorbeeld)
 3. https://stackoverflow.com/questions/15404520/css-keyframe-animation-hiding-element-before-animation-starts ( uitleg voor hoe de animaties de laatste waardes bewaard)
 4. https://www.redbull.com/in-en/10-pokemon-facts-you-probably-didnt-know-about#:~:text=1.,The%20first%20Pok%C3%A9mon%20ever%20designed&text=It%20may%20be%20entry%20%23112,widespread%20in%20the%20original%20games. (pokemon facts, rhydorn oudste pokemon)
-  5. https://www.w3schools.com/css/css3_variables.asp (het maken van variabelen)
-  6. https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages (github probleem)
-  7. https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_video_games (lijst van alle pokemon spellen
-  8. https://twitter.com/drlavayt/status/1189124086091472897 (beta sprites, interview met oud designer pokemon)
-
+ 5. https://www.w3schools.com/css/css3_variables.asp (het maken van variabelen)
+ 6. https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages (github probleem)
+ 7. https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_video_games (lijst van alle pokemon spellen
+ 8. https://twitter.com/drlavayt/status/1189124086091472897 (beta sprites, interview met oud designer pokemon)
+ 9. https://pwo-wiki.info/index.php/Mapping_Tutorials (map look en feel van pokemon)
 </details>
