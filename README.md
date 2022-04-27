@@ -33,7 +33,7 @@ Mijn startniveau is: Blauw
    ### De tweede versie/schets:
   <img src="readme-images/tweede_schets.svg" width="375px" alt="eerste versie/schets">
   
-   ### De derde versie/schets:
+   ### De derde/laatste versie/schets:
   <img src="readme-images/derde_schets.jpeg" width="375px" alt="eerste versie/schets">
 
   ### Je ambitie: 
@@ -41,7 +41,7 @@ Mijn startniveau is: Blauw
   - Mappensysteem om de visuele sfeer van pokemon weer te geven
   - Werken aan mijn css om Deze vaardigheden te verbeteren
   - Ik wil een kleinschalige pokemonbattle weergeven
-  - ...
+  - Ik wil kunnen illustreren
  
 </details>
 
@@ -99,23 +99,26 @@ Mijn startniveau is: Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  weinig contrast map is slecht te zien op sommige schermen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Map gaat veranderd worden in de stijl van Pokémon. In de Pokémon spellen word voldoende gebruik gemaakt van goed contrast wat dit probleem gaat anpakken.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Bronnen opnemen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  bronen moeten nog worden opgeschreven in de reflectie/code.
 
 
 
   ### Bevinding 3:
-  ...
+  code is rommelig
+
+  #### oplossing:
+  code herindelen zodat het makkelijk terug te vinden is.
 
 </details>
 
@@ -127,23 +130,32 @@ Mijn startniveau is: Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Mist informatieve uitleg.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  dit heb ik gedaan door informatieve uitleg te laten zien met behulp van verschillende easter eggs.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Probeer gebruik te maken van custom properties waar dat kan.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb custom properties gebruikt voor de achtergrond kleur en voor de horizontale en verticale as van de knoppen
 
 
 
   ### Bevinding 3:
-  ...
+  Code nog steeds iets te rommelig.
+
+  #### oplossing:
+  heringedeeld, animaties onderaan, knoppen bovenaan, per knop ingedeeld!
+  
+   ### Bevinding 4:
+  Animaties nog niet responsive.
+
+  #### oplossing:
+  gedaan door de sections waar de animaties inzitten een 100% height te geven width auto en dan de images die in die sections zitten een viewheight te geven zodat ze     meeschalen met het scherm.
 
 </details>
 
@@ -156,19 +168,26 @@ Mijn startniveau is: Blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/derde_schets.jpeg" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Ik ben over het algemeen niet goed in het schrijven van code, daarom was dit best wel een lastige opdracht voor mij. Ik heb daarentegen wel een aantal dingen geleerd. Ik heb beter geleerd om gebruik te maken van parents en brothers in de code, die heb ik kunnen gebruiken om zo beter me plaatjes en knoppen aan te kunnen roepen in me code. Daarnaast heb ik ook een aantal dingen geleerd over het schrijven van animaties en ze goed toe te kunnen passen op deze verschillende parents/brothers. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/battle_animations.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Als ik meer tijd had gehad had ik 2 dingen meer tijd aan willen besteden:
+  1. mooier maken van de pokemon battle/ uitgebreidere animaties
+  2. betere detail pagina's waar informatieve uitleg word gegeven.
+  
+  Met de animaties in het begin heb ik heel erg zitten ''struggelen'' om die juist af te laten spelen maar na hulp, ging dit goed, Alleen had ik graag meer tijd gehad om deze beter uit te werken en of eventueel uitgebreider te maken.
+  
+  Het laatste waar ik nog erg moete mee heb is om mijn code goed geordend voor mijzelf (en andere) juist neer te zetten waardoor ik het makkelijk terug kan vinden.
+  Ik hoop dat dit nu aardig goed terug te lezen zit en heb ik veel gebruik gemaakt van Annotaties
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+
 </details>
 
 
